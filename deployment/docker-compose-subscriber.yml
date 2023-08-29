@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  mqtt-subscriber:
+    container_name: mqtt_publisher
+    image: 851237194675.dkr.ecr.ap-south-1.amazonaws.com/application/coulomb:latest
+    command: bash -c "cd subscriber && python3 main.py"
+    env_file:
+      - .env
+    restart: always

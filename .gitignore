@@ -1,0 +1,47 @@
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Logs and outputs
+*.log
+*.log.*
+
+# IDE-specific files and directories
+.idea/
+.vscode/
+*.code-workspace
+
+# Dependency directories
+dist/
+build/
+*.egg-info/
+
+# Data and cache directories
+data/
+.cache/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Compiled extensions
+*.so
+
+# Environment variables
+.env
+**/.env
+
+# Local configuration files
+*.cfg
+
+# Project-specific files
+my_secret_config.yaml
+
+# Ignore compiled extensions for specific libraries
+lib/*/*.so
